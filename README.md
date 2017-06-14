@@ -13,7 +13,7 @@ Enclosed in this repository are the classes used to create the main feed in a ye
 
 *  PromiseKit: Cleanly handle asynchronous requests and also help simplify error handling.  I feel it makes the code more readable as well.
 *  SDWebImage: Handle the image processing and caching.
-*  Cartography:  You may notice there are no storyboards or xib files.  I like to layout views in code, and cartography is a great tool to simply the Autolayout framework and also make the layouts legibile.  Cartography is invoked by the `constrain` method in all the provided views
+*  Cartography:  You may notice there are no storyboards or xib files.  I like to layout views in code, and cartography is a great tool to simplify the Autolayout framework and also make the layouts readable.  Cartography is invoked by the `constrain` method in all the provided views
 *  SwiftyJSON:  Makes working with JSON objects simple
 
 ### Image of the view this code creates
