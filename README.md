@@ -2,7 +2,7 @@
 ## Swift 3.1 code sample
 
 ### Intro
-Enclosed in this repository are the classes used to create the main feed in a yet to be released version of the app Airhoot.  Very simply: Airhoot is twitter, but anonymous.  
+Enclosed are the classes used to create the main feed in a yet-to-be released version of the app Airhoot. Airhoot is like Twitter, but all activity is encrypted and anonymous. 
 
 *  The main feed `AHMainFeedViewController` is constructed from a `UIViewController` containing a `UITableView`.  Airhoot has the ability to display different kinds of data feeds (popular, near me, my posts).  In order to re-use the main feed controller, `AHFeedManager` was implemented to determine which data to display.
 *  There are three different types of data that can be displayed: text, photo, and photo & text combined.  Each data type is correlated to it's own cell which are all subclassed from a basic cell `AHFeedBasicCell`.  All the heavy lifting is done inside the basic cell, and the subclasses are mainly to accommodate the different display layouts.
