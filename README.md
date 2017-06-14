@@ -17,4 +17,4 @@ Enclosed in this repository are the classes used to create the main feed in a ye
 *  SwiftyJSON:  Makes working with JSON objects simple
 
 ### Image of the view this code creates
-![Feed Screenshot](/images/screenshot.png)
+![Feed Screenshot](/screenshot.png)
